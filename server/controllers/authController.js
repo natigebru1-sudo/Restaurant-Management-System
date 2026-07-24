@@ -23,6 +23,7 @@ class AuthController {
         email,
         password,
         contact_info,
+        role: "customer",
       });
 
       const token = generateToken({
